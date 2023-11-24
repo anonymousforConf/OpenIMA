@@ -4,8 +4,6 @@ The PyTorch implementation of OpenIMA.
 OpenIMA is proposed for open-world semi-supervised learning for node classification.
 
 # Overview
-You can enter the folder `run/` and then run run_ours.sh (run_ours_large.sh) for open-world semi-supervised learning on the Coauthor CS dataset (ogbn-arxiv dataset).
-
 Specifically, the repository is organized as follows:
 
 * `losses/` contains the implementation of supervised contrastive loss, which can be used for implementing the proposed PLCL loss.
@@ -16,6 +14,19 @@ Specifically, the repository is organized as follows:
  
 * `util.py` is used for loading and pre-processing the dataset, and also includes the functions for computing metrics.
 
-* `train_ours.py` is used for implementing the pipeline of OpenIMR.
+* `train_ours.py` is used for implementing the pipeline of OpenIMA.
 
-* `train_ours_large.py` is used for implementing the pipeline of OpenIMR for large graph datasets.
+* `train_ours_large.py` is used for implementing the pipeline of OpenIMA for large graph datasets.
+
+# Running the code
+To run OpenIMA on the example dataset Coauthor CS
+```
+$ cd run/
+$ sh run_ours.sh
+```
+
+To run OpenIMA on the larger example dataset ogbn-arxiv
+```
+$ cd run/
+$ sh run_ours_large.sh
+```
