@@ -1,7 +1,7 @@
 # OpenIMR
-The PyTorch implementation of OpenIMR.
+The PyTorch implementation of OpenIMA.
 
-OpenIMR is proposed for open-world semi-supervised learning on graph data.
+OpenIMA is proposed for open-world semi-supervised learning on graph data.
 
 # Overview
 You can enter the folder `run/` and then run run_ours.sh (run_ours_large.sh) for open-world semi-supervised learning on the Coauthor CS dataset (ogbn-arxiv dataset).
