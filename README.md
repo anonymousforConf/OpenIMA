@@ -18,6 +18,9 @@ Specifically, the repository is organized as follows:
 
 * `train_ours_large.py` is used for implementing the pipeline of OpenIMA for large graph datasets.
 
+# Requirements
+Before running the code, you should install PyTorch, dgl, scipy, sklearn, numpy, and ogb.
+
 # Running the code
 To run OpenIMA on the example dataset Coauthor CS
 ```
