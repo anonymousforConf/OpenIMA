@@ -1,4 +1,4 @@
-# OpenIMR
+# OpenIMA
 The PyTorch implementation of OpenIMA.
 
 OpenIMA is proposed for open-world semi-supervised learning on graph data.
