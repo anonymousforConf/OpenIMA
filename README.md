@@ -30,3 +30,4 @@ To run OpenIMA on the larger example dataset ogbn-arxiv
 $ cd run/
 $ sh run_ours_large.sh
 ```
+All the experiments are repeated ten times under ten different data splits, and the reported accuracy is averaged over the ten runs.
