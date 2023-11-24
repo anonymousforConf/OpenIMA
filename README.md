@@ -1,7 +1,7 @@
 # OpenIMA
 The PyTorch implementation of OpenIMA.
 
-OpenIMA is proposed for open-world semi-supervised learning on graph data.
+OpenIMA is proposed for open-world semi-supervised learning for node classification.
 
 # Overview
 You can enter the folder `run/` and then run run_ours.sh (run_ours_large.sh) for open-world semi-supervised learning on the Coauthor CS dataset (ogbn-arxiv dataset).
